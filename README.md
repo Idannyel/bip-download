@@ -38,6 +38,12 @@ O Bip é um assistente de voz para Windows, em português do Brasil. Ele fica en
 | 📁 | **Arquivos** | “Cria uma pasta Relatórios 2026 na área de trabalho”, “organiza a área de trabalho” |
 | 🌐 | **Sites e informação** | “Abre o site do Mercado Livre”, “como está o clima?”, “quanto está o dólar?” |
 | 📱 | **Celular** | Fale com o Bip pelo celular, no mesmo Wi-Fi |
+| 🧠 | **Memória** | “Lembra que minha playlist é Lo-fi Beats” e depois “toca minha playlist” |
+| 🔗 | **Vários pedidos de uma vez** | “Abre o Spotify, põe Tim Maia e baixa o volume para 30” |
+| 🧩 | **Rotinas** | “Modo trabalho”, “modo jogo” ou “cria a rotina estudo: abre o Notion e toca lofi” |
+| 📅 | **Agenda e resumo do dia** | “Marca dentista sexta às 15h”, “bom dia” (clima, compromissos, tarefas e e-mails) |
+| 🖥️ | **Controle do PC** | “Modo escuro”, “tira um print”, “o que está escrito na minha tela?”, “reinicia o PC” |
+| 🎧 | **Spotify** | “Toca minha playlist de treino”, “curte essa música” (com a conta conectada) |
 
 ## Telas
 
@@ -56,7 +62,7 @@ O Bip é um assistente de voz para Windows, em português do Brasil. Ele fica en
    - **IA local (Ollama):** roda no seu PC, sem internet. Baixa alguns GB uma única vez.
    - **Groq (grátis, na nuvem):** entende melhor e responde mais rápido. Basta colar uma chave gratuita em **Ajustes → Entender melhor**.
 
-O atalho **Bip** fica na área de trabalho e no Menu Iniciar. Para atualizar, instale a versão nova por cima: tarefas, notas e ajustes continuam.
+O atalho **Bip** fica na área de trabalho e no Menu Iniciar. A partir da versão 1.3.0, o Bip **se atualiza sozinho**: baixa a versão nova em segundo plano e instala quando você fecha o Bip. Tarefas, notas e ajustes continuam.
 
 ## Requisitos
 
@@ -74,6 +80,9 @@ O atalho **Bip** fica na área de trabalho e no Menu Iniciar. Para atualizar, in
 - Com a IA local, nada do que você pede sai do computador.
 - Com o Groq ligado, sua voz e seus pedidos passam pelos servidores do Groq.
 - E-mails só são enviados depois que você confirma.
+- O que o Bip sabe sobre você fica só no seu PC, e dá para apagar em **Ajustes → O que o Bip sabe de você**.
+- Para ler a tela, o Bip pede permissão antes de mandar a foto da tela para o Groq.
+- A voz premium (ElevenLabs) é opcional: com ela ligada, o texto das respostas passa pela ElevenLabs.
 
 ## Perguntas frequentes
 
