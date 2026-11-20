@@ -44,6 +44,9 @@ O Bip é um assistente de voz para Windows, em português do Brasil. Ele fica en
 | 📅 | **Agenda e resumo do dia** | “Marca dentista sexta às 15h”, “bom dia” (clima, compromissos, tarefas e e-mails) |
 | 🖥️ | **Controle do PC** | “Modo escuro”, “tira um print”, “o que está escrito na minha tela?”, “reinicia o PC” |
 | 🎧 | **Spotify** | “Toca minha playlist de treino”, “curte essa música” (com a conta conectada) |
+| 🏋️ | **Treino** | Aba com o treino de cada dia da semana: “qual meu treino hoje?”, “treinei”, “segunda é peito e tríceps” |
+| 🗣️ | **Vozes humanas** | Francisca e Antonio sem configurar nada, ou mais de 20 vozes brasileiras do Azure (grátis, 500 mil caracteres por mês) |
+| ☀️ | **Bom dia ao ligar o PC** | Abre junto com o Windows e diz “Bom dia”, “Boa tarde” ou “Boa noite” com o seu nome |
 
 ## Telas
 
@@ -61,6 +64,12 @@ O Bip é um assistente de voz para Windows, em português do Brasil. Ele fica en
 4. Na primeira vez, o Bip pergunta seu nome e como ele deve pensar:
    - **IA local (Ollama):** roda no seu PC, sem internet. Baixa alguns GB uma única vez.
    - **Groq (grátis, na nuvem):** entende melhor e responde mais rápido. Basta colar uma chave gratuita em **Ajustes → Entender melhor**.
+5. No último passo, você pode liberar as **vozes humanas** (opcional):
+   1. Clique em **Abrir o Azure** e entre ou crie uma conta grátis da Microsoft.
+   2. Crie o recurso de **Fala**: região **East US**, preço **Free F0**, depois **Revisar + criar** e **Criar**.
+   3. Em **Ir para o recurso → Chaves e Ponto de Extremidade**, copie a **CHAVE 1** e cole no Bip.
+
+   Dá para pular e fazer depois em **Ajustes → Voz**.
 
 O atalho **Bip** fica na área de trabalho e no Menu Iniciar. A partir da versão 1.3.0, o Bip **se atualiza sozinho**: baixa a versão nova em segundo plano e instala quando você fecha o Bip. Tarefas, notas e ajustes continuam.
 
@@ -82,6 +91,7 @@ O atalho **Bip** fica na área de trabalho e no Menu Iniciar. A partir da versã
 - E-mails só são enviados depois que você confirma.
 - O que o Bip sabe sobre você fica só no seu PC, e dá para apagar em **Ajustes → O que o Bip sabe de você**.
 - Para ler a tela, o Bip pede permissão antes de mandar a foto da tela para o Groq.
+- Com as vozes humanas ligadas (Azure ou Google), o texto das respostas passa pela Microsoft ou pelo Google para virar voz.
 - A voz premium (ElevenLabs) é opcional: com ela ligada, o texto das respostas passa pela ElevenLabs.
 
 ## Perguntas frequentes
