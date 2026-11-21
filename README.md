@@ -43,18 +43,19 @@ O Bip é um assistente de voz para Windows, em português do Brasil. Ele fica en
 | 🧩 | **Rotinas** | “Modo trabalho”, “modo jogo” ou “cria a rotina estudo: abre o Notion e toca lofi” |
 | 📅 | **Agenda e resumo do dia** | “Marca dentista sexta às 15h”, “bom dia” (clima, compromissos, tarefas e e-mails) |
 | 🖥️ | **Controle do PC** | “Modo escuro”, “tira um print”, “o que está escrito na minha tela?”, “reinicia o PC” |
-| 🎧 | **Spotify** | “Toca minha playlist de treino”, “curte essa música” (com a conta conectada) |
+| 🎧 | **Música certa, no seu player** | Corrige nomes mal ouvidos (“team maia” vira Tim Maia) e toca no YouTube, YouTube Music ou Spotify |
+| ⌨️ | **Digita para você** | “Digita bom dia a todos”, “pesquisa receita de bolo aqui” (escreve onde o cursor está) |
 | 🏋️ | **Treino** | Aba com o treino de cada dia da semana: “qual meu treino hoje?”, “treinei”, “segunda é peito e tríceps” |
 | 🗣️ | **Vozes humanas** | Francisca e Antonio sem configurar nada, ou mais de 20 vozes brasileiras do Azure (grátis, 500 mil caracteres por mês) |
 | ☀️ | **Bom dia ao ligar o PC** | Abre junto com o Windows e diz “Bom dia”, “Boa tarde” ou “Boa noite” com o seu nome |
 
 ## Telas
 
-<p align="center"><img src=".github/assets/s-home.png" alt="Tela de início do Bip" width="100%"></p>
-<p align="center"><img src=".github/assets/s-tasks.png" alt="Tarefas" width="100%"></p>
-<p align="center"><img src=".github/assets/s-timers.png" alt="Foco e timers" width="100%"></p>
+<p align="center"><img src=".github/assets/s-home.png" alt="Início: o Bip no centro, com o anel de ondas e a resposta" width="100%"></p>
+<p align="center"><img src=".github/assets/s-chat.png" alt="Conversa no painel lateral" width="100%"></p>
+<p align="center"><img src=".github/assets/s-treino.png" alt="Treino da semana" width="100%"></p>
+<p align="center"><img src=".github/assets/s-voices.png" alt="Galeria de vozes humanas" width="100%"></p>
 <p align="center"><img src=".github/assets/s-media.png" alt="Mídia" width="100%"></p>
-<p align="center"><img src=".github/assets/s-groq.png" alt="Ajustes: entender melhor com o Groq" width="100%"></p>
 
 ## Instalação
 
